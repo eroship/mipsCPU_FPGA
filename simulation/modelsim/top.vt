@@ -1,0 +1,75 @@
+
+`timescale 10 ns/ 1 ns
+module top_vlg_tst();
+reg clk;
+reg reset;
+// wires                                               
+wire ALUsrc;
+wire CF;
+wire OF;
+wire [31:0]  PC;
+wire ZF;
+wire branch;
+wire branchTrue;
+wire [31:0]  busB;
+wire clk_5000HZ;
+wire [31:0]  inst;
+wire jump;
+wire memToReg;
+wire memWrite;
+wire [6:0]  numberDecode;
+wire [31:0]  out;
+wire [3:0]  posDecode;
+wire regDist;
+wire regWrite;
+wire [31:0]  rsdata;
+wire [31:0]  rtdata;
+wire [3:0] ALUop;
+wire clk_instROM;
+
+// assign statements (if any)                          
+top i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUsrc(ALUsrc),
+	.CF(CF),
+	.OF(OF),
+	.PC(PC),
+	.ZF(ZF),
+	.branch(branch),
+	.branchTrue(branchTrue),
+	.busB(busB),
+	.clk(clk),
+	.clk_5000HZ(clk_5000HZ),
+	.inst(inst),
+	.jump(jump),
+	.memToReg(memToReg),
+	.memWrite(memWrite),
+	.numberDecode(numberDecode),
+	.out(out),
+	.posDecode(posDecode),
+	.regDist(regDist),
+	.regWrite(regWrite),
+	.reset(reset),
+	.rsdata(rsdata),
+	.rtdata(rtdata),
+	.ALUop(ALUop),
+	.clk_instROM(clk_instROM)
+);
+                                                   
+initial                                                
+begin  
+	clk = 0;
+	reset = 0;
+	#1000000;
+	reset = 1;
+	#5000;
+	$stop;
+	
+end                                                    
+always                                                               
+begin    
+
+   #1 clk = ~clk;                                       
+end                                                    
+endmodule
+

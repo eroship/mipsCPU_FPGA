@@ -1,0 +1,40 @@
+module div(clk, out1, out2);
+input clk;
+output reg out1;
+output reg out2;
+reg[16:0] cnt1;
+reg[24:0] cnt2;
+
+initial
+begin
+	cnt1 = 0;
+	cnt2 = 0;
+end
+
+always@(posedge clk)
+begin
+	cnt1 = 17'd0;
+	cnt2 = 17'd0;
+	out1 = 1'b0;
+	out2 = 1'b0;
+	
+	if(cnt1 == 17'd49999)
+	begin
+		out1 = ~out1;
+		cnt1 = 17'b0;
+	end
+	else
+	begin
+		cnt1 = cnt1 + 1;
+	end
+	
+	if(cnt2 = 25'd24999999)
+	begin
+		out2 = ~out2;
+		cnt2 = 25'b0;
+	end
+	else
+		cnt2 = cnt2 + 1;
+end
+endmodule
+	

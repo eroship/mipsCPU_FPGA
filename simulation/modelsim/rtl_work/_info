@@ -1,0 +1,293 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\2spring\singlecycleCPU\simulation\modelsim
+vALU
+I5i9HH2jF0LzAnU8H7beFa2
+V:A4z:heiLIXQ4QnhhkQiQ0
+Z1 dD:\2spring\singlecycleCPU\simulation\modelsim
+w1617308892
+8D:/2spring/singlecycleCPU/ALU.v
+FD:/2spring/singlecycleCPU/ALU.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU -O0
+n@a@l@u
+!i10b 1
+!s100 2AoK99iYnjC=_2Ea_:zff2
+!s85 0
+!s108 1620388043.371000
+!s107 D:/2spring/singlecycleCPU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/ALU.v|
+!s101 -O0
+vcontrol
+IKY`1zS;=4Qf_d`m>0[:8M1
+V5RS`>ee3G_V:llnBUH]<`1
+R1
+w1620114344
+8D:/2spring/singlecycleCPU/control.v
+FD:/2spring/singlecycleCPU/control.v
+L0 24
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 BF44g6KcUoUL0R1WCnPG13
+!s85 0
+!s108 1620388043.261000
+!s107 D:/2spring/singlecycleCPU/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/control.v|
+!s101 -O0
+vdelay
+IXg9`dIUczJ3cZ^4[_ebdb3
+V`^LO1C4;zdD2BzDhjIPC]2
+R1
+w1620185903
+8D:/2spring/singlecycleCPU/delay.v
+FD:/2spring/singlecycleCPU/delay.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _iLJ_kX8m56m2bZfgm=Do1
+!s85 0
+!s108 1620388043.221000
+!s107 D:/2spring/singlecycleCPU/delay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/delay.v|
+!s101 -O0
+vdivider
+I>fmIHR_hg3[END8UUGZIX3
+VRGDV_Djo=47YgIk;WZo5`3
+R1
+w1620150504
+8D:/2spring/singlecycleCPU/divider.v
+FD:/2spring/singlecycleCPU/divider.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 WD>Y7l_fmdIIcdTGfL`5B2
+!s85 0
+!s108 1620388043.541000
+!s107 D:/2spring/singlecycleCPU/divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/divider.v|
+!s101 -O0
+vextend
+I@8`1Y944iUM<n5e0FlkCj1
+Vc94U6>dYP22EVJ7KY;lKZ1
+R1
+w1620114079
+8D:/2spring/singlecycleCPU/extend.v
+FD:/2spring/singlecycleCPU/extend.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 f^oh6M4kDbEncdHzGh=JX3
+!s85 0
+!s108 1620388043.501000
+!s107 D:/2spring/singlecycleCPU/extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/extend.v|
+!s101 -O0
+vinstROM
+I37PZW;]lbU8XBNZ:TXL1V3
+V6bjdY_jA?S]ghd=R8Oa]f0
+R1
+w1620142422
+8D:/2spring/singlecycleCPU/instROM.v
+FD:/2spring/singlecycleCPU/instROM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+ninst@r@o@m
+!i10b 1
+!s100 fUKnHb3nKLzQ^BA<IzH>n0
+!s85 0
+!s108 1620388043.581000
+!s107 D:/2spring/singlecycleCPU/instROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/instROM.v|
+!s101 -O0
+vmemRAM
+Ie?Fijbga<^G2m8Z7iE?bc1
+V=MlE:dIE6Q2L?0f7:n:=R1
+R1
+w1620112326
+8D:/2spring/singlecycleCPU/memRAM.v
+FD:/2spring/singlecycleCPU/memRAM.v
+L0 39
+R2
+r1
+31
+R3
+R4
+nmem@r@a@m
+!i10b 1
+!s100 zhIO4[]T`6J]XO^@aeQS_1
+!s85 0
+!s108 1620388043.621000
+!s107 D:/2spring/singlecycleCPU/memRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/memRAM.v|
+!s101 -O0
+vmux_ALUsrc
+IfBUHIKa`_AXNKm>YdVSmT1
+V;ELzW[kebaMPORij=gfBV2
+R1
+w1620112426
+8D:/2spring/singlecycleCPU/mux_ALUsrc.v
+FD:/2spring/singlecycleCPU/mux_ALUsrc.v
+L0 39
+R2
+r1
+31
+R3
+R4
+nmux_@a@l@usrc
+!i10b 1
+!s100 @;R:]=V[fAP3NWkXgg;4A2
+!s85 0
+!s108 1620388043.661000
+!s107 D:/2spring/singlecycleCPU/mux_ALUsrc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/mux_ALUsrc.v|
+!s101 -O0
+vmux_memToReg
+I_^8c6:L5IWS7@jQWk]eP81
+Vn76BZ:PH3BT@S;Al_aAlh2
+R1
+w1620112572
+8D:/2spring/singlecycleCPU/mux_memToReg.v
+FD:/2spring/singlecycleCPU/mux_memToReg.v
+L0 39
+R2
+r1
+31
+R3
+R4
+nmux_mem@to@reg
+!i10b 1
+!s100 h58EeGkI=gih3W7SdbBbQ0
+!s85 0
+!s108 1620388043.701000
+!s107 D:/2spring/singlecycleCPU/mux_memToReg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/mux_memToReg.v|
+!s101 -O0
+vmyShow
+Ib;12@FP7TBcTV:P:`VWNZ2
+VBDXa73JGKM]oI]_KZ9]hb0
+R1
+w1617526425
+8D:/2spring/singlecycleCPU/myShow.v
+FD:/2spring/singlecycleCPU/myShow.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nmy@show
+!i10b 1
+!s100 DK5a1ebFBBIEC>hCfZmjV0
+!s85 0
+!s108 1620388043.301000
+!s107 D:/2spring/singlecycleCPU/myShow.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/myShow.v|
+!s101 -O0
+vPC
+I08<0KFEcj=HmFCQ<Oe6dl2
+VFi>mkQ[62kkJ?^4DXYGFU2
+R1
+w1620114046
+8D:/2spring/singlecycleCPU/PC.v
+FD:/2spring/singlecycleCPU/PC.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@p@c
+!i10b 1
+!s100 SWOIY0;9;:fe=K9Z[Yb@]2
+!s85 0
+!s108 1620388043.411000
+!s107 D:/2spring/singlecycleCPU/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/PC.v|
+!s101 -O0
+vregFile
+I:145SY<Wg^IIYaWPUdZT:3
+VRKUd6H81l327X^ngV[n741
+R1
+w1620365660
+8D:/2spring/singlecycleCPU/regFile.v
+FD:/2spring/singlecycleCPU/regFile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nreg@file
+!i10b 1
+!s100 M;mP?PX;7ZeW7hU9=dcGV2
+!s85 0
+!s108 1620388043.461000
+!s107 D:/2spring/singlecycleCPU/regFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/regFile.v|
+!s101 -O0
+vtop
+I5o6c]91kG@3On3[33^KIH0
+V?=V=j8Y4_GMWb^@=ZG`gh1
+R1
+w1620387825
+8D:/2spring/singlecycleCPU/top.v
+FD:/2spring/singlecycleCPU/top.v
+L0 19
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Q[cQ`Zm>MT[iM3n]AK9kS1
+!s85 0
+!s108 1620388043.181000
+!s107 D:/2spring/singlecycleCPU/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU|D:/2spring/singlecycleCPU/top.v|
+!s101 -O0
+vtop_vlg_tst
+!i10b 1
+!s100 dOf;94FO10H^Y@ZDal1N>2
+ITU^PAU53`dl5ReIVE4lzX3
+VWH`X8iAJ@;Z6_Z>8HHbjI2
+R1
+w1620388037
+8D:/2spring/singlecycleCPU/simulation/modelsim/top.vt
+FD:/2spring/singlecycleCPU/simulation/modelsim/top.vt
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1620388043.741000
+!s107 D:/2spring/singlecycleCPU/simulation/modelsim/top.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU/simulation/modelsim|D:/2spring/singlecycleCPU/simulation/modelsim/top.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU/simulation/modelsim -O0

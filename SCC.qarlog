@@ -1,0 +1,46 @@
+Quartus II Archive log --	D:/2spring/singlecycleCPU/SCC.qarlog
+
+Archive:	D:/2spring/singlecycleCPU/SCC.qar
+Date:		Fri May 07 23:22:47 2021
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+D:/2spring/singlecycleCPU/ALU.v
+D:/2spring/singlecycleCPU/PC.v
+D:/2spring/singlecycleCPU/SCC.qpf
+D:/2spring/singlecycleCPU/SCC.qsf
+D:/2spring/singlecycleCPU/control.v
+D:/2spring/singlecycleCPU/delay.v
+D:/2spring/singlecycleCPU/divider.v
+D:/2spring/singlecycleCPU/extend.v
+D:/2spring/singlecycleCPU/incremental_db/compiled_partitions/SCC.db_info
+D:/2spring/singlecycleCPU/instROM.bsf
+D:/2spring/singlecycleCPU/instROM.mif
+D:/2spring/singlecycleCPU/instROM.qip
+D:/2spring/singlecycleCPU/instROM.v
+D:/2spring/singlecycleCPU/instROM_bb.v
+D:/2spring/singlecycleCPU/memRAM.bsf
+D:/2spring/singlecycleCPU/memRAM.mif
+D:/2spring/singlecycleCPU/memRAM.qip
+D:/2spring/singlecycleCPU/memRAM.v
+D:/2spring/singlecycleCPU/memRAM_bb.v
+D:/2spring/singlecycleCPU/mux_ALUsrc.bsf
+D:/2spring/singlecycleCPU/mux_ALUsrc.qip
+D:/2spring/singlecycleCPU/mux_ALUsrc.v
+D:/2spring/singlecycleCPU/mux_ALUsrc_bb.v
+D:/2spring/singlecycleCPU/mux_memToReg.bsf
+D:/2spring/singlecycleCPU/mux_memToReg.qip
+D:/2spring/singlecycleCPU/mux_memToReg.v
+D:/2spring/singlecycleCPU/mux_memToReg_bb.v
+D:/2spring/singlecycleCPU/myShow.v
+D:/2spring/singlecycleCPU/regFile.v
+D:/2spring/singlecycleCPU/simulation/modelsim/top.vt
+D:/2spring/singlecycleCPU/stp1.stp
+D:/2spring/singlecycleCPU/stp1_auto_stripped.stp
+D:/2spring/singlecycleCPU/top.v
+D:/2spring/singlecycleCPU/top_final.bdf
+d:/quaturs/quartus/bin64/assignment_defaults.qdf
+	======= Total: 35 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

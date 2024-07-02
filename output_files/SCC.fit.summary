@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri May 07 20:13:33 2021
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : SCC
+Top-level Entity Name : top_final
+Family : Cyclone II
+Device : EP2C5Q208C8
+Timing Models : Final
+Total logic elements : 4,311 / 4,608 ( 94 % )
+    Total combinational functions : 2,932 / 4,608 ( 64 % )
+    Dedicated logic registers : 3,086 / 4,608 ( 67 % )
+Total registers : 3086
+Total pins : 16 / 142 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 30,336 / 119,808 ( 25 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

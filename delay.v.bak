@@ -1,0 +1,20 @@
+module delay(in, clk, out);
+input in;
+input clk;
+output out;
+reg [1:0]waiting;
+
+assign out = waiting[1];
+//只能延迟半个周期，不能再多了
+initial
+begin
+	waiting = 0;
+end
+
+
+always@(negedge clk)
+begin
+	waiting = (waiting<<1) + in;
+end
+
+endmodule

@@ -1,0 +1,7 @@
+
+State Machine - |top_final|myShow:inst10|posNumber
+Name posNumber.11 posNumber.10 posNumber.01 posNumber.00 
+posNumber.00 0 0 0 0 
+posNumber.01 0 0 1 1 
+posNumber.10 0 1 0 1 
+posNumber.11 1 0 0 1 

@@ -1,0 +1,145 @@
+# Reading D:/quaturs/modelsim_ase/tcl/vsim/pref.tcl 
+# do SCC_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quaturs\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quaturs\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/delay.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay
+# 
+# Top level modules:
+# 	delay
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/myShow.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module myShow
+# 
+# Top level modules:
+# 	myShow
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/regFile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regFile
+# 
+# Top level modules:
+# 	regFile
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/extend.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/divider.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module divider
+# 
+# Top level modules:
+# 	divider
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/instROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instROM
+# 
+# Top level modules:
+# 	instROM
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/memRAM.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memRAM
+# 
+# Top level modules:
+# 	memRAM
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/mux_ALUsrc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_ALUsrc
+# 
+# Top level modules:
+# 	mux_ALUsrc
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU {D:/2spring/singlecycleCPU/mux_memToReg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_memToReg
+# 
+# Top level modules:
+# 	mux_memToReg
+# 
+# vlog -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU/simulation/modelsim {D:/2spring/singlecycleCPU/simulation/modelsim/top.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_vlg_tst
+# 
+# Top level modules:
+# 	top_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  top_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_vlg_tst 
+# Loading work.top_vlg_tst
+# Loading work.top
+# Loading work.memRAM
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.myShow
+# Loading work.regFile
+# Loading work.divider
+# Loading work.instROM
+# Loading work.mux_ALUsrc
+# Loading lpm_ver.lpm_mux
+# Loading work.mux_memToReg
+# Loading work.PC
+# Loading work.ALU
+# Loading work.extend
+# Loading work.control
+# Loading work.delay
+# ** Warning: (vsim-3017) D:/2spring/singlecycleCPU/top.v(107): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /top_vlg_tst/i1/b2v_inst1
+# ** Warning: (vsim-3722) D:/2spring/singlecycleCPU/top.v(107): [TFMPC] - Missing connection for port 'clken'.
+# 
+# ** Warning: (vsim-3017) D:/2spring/singlecycleCPU/top.v(143): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /top_vlg_tst/i1/b2v_inst1312
+# ** Warning: (vsim-3722) D:/2spring/singlecycleCPU/top.v(143): [TFMPC] - Missing connection for port 'clken'.
+# 
+# ** Warning: (vsim-3017) D:/2spring/singlecycleCPU/top.v(195): [TFMPC] - Too few port connections. Expected 11, found 9.
+# 
+#         Region: /top_vlg_tst/i1/b2v_inst9
+# ** Warning: (vsim-3722) D:/2spring/singlecycleCPU/top.v(195): [TFMPC] - Missing connection for port 'memRead'.
+# 
+# ** Warning: (vsim-3722) D:/2spring/singlecycleCPU/top.v(195): [TFMPC] - Missing connection for port 'extOp'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module top_vlg_tst at D:/2spring/singlecycleCPU/simulation/modelsim/top.vt line 66
+# Simulation Breakpoint: Break in Module top_vlg_tst at D:/2spring/singlecycleCPU/simulation/modelsim/top.vt line 66
+# MACRO ./SCC_run_msim_rtl_verilog.do PAUSED at line 29

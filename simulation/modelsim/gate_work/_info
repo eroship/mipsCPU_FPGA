@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\2spring\singlecycleCPU\simulation\modelsim
+vtop
+IV5gbBFJm`ojbdC>eF>UK[0
+V?=V=j8Y4_GMWb^@=ZG`gh1
+Z1 dD:\2spring\singlecycleCPU\simulation\modelsim
+w1620189259
+8SCC.vo
+FSCC.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 gE4GT:=RQ`jTkUTOR4o]R2
+!s85 0
+!s108 1620190250.154000
+!s107 SCC.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|SCC.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vtop_vlg_tst
+!i10b 1
+!s100 ]lNB]]dG=[XaBMYjCGTz@3
+I9oo_j^LXNiXlb40fWZf;=1
+VWH`X8iAJ@;Z6_Z>8HHbjI2
+R1
+w1620189361
+8D:/2spring/singlecycleCPU/simulation/modelsim/top.vt
+FD:/2spring/singlecycleCPU/simulation/modelsim/top.vt
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1620190250.516000
+!s107 D:/2spring/singlecycleCPU/simulation/modelsim/top.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/2spring/singlecycleCPU/simulation/modelsim|D:/2spring/singlecycleCPU/simulation/modelsim/top.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/2spring/singlecycleCPU/simulation/modelsim -O0
